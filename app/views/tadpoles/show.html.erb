@@ -1,10 +1,12 @@
 <div class="card">
   <h1><%= @tadpole.name %> the Tadpole</h1>
+
   <p>
     <%= form_tag("/tadpoles/#{@tadpole.id}/metamorphosize") do %>
       <%= submit_tag "Become a frog", :class => 'btn btn-primary' %>
     <% end %>
   </p>
+
   <p>Color: <%= @tadpole.color %></p>
   <p>Parent: <a href="/frogs/<%= @tadpole.frog.id %>"><%= @tadpole.frog.name %></a></p>
   <p>Lives: <a href="/ponds/<%= @tadpole.pond.id %>"><%= @tadpole.pond.name %></a></p>

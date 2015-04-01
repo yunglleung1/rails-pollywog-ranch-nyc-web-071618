@@ -12,7 +12,7 @@ class TadpolesController < ApplicationController
       end
     end    
   end
-
+    
   def index
     @tadpoles = Tadpole.all
   end
