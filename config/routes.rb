@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   get '/ponds/:id/destroy', to: 'ponds#destroy'
   get '/frogs/:id/destroy', to: 'frogs#destroy'
   get '/tadpoles/:id/destroy', to: 'tadpoles#destroy'
-  get '/tadpoles/:id/metamorphosize', to: 'tadpoles#metamorphosize'
+  
+  post '/tadpoles/:id/metamorphosize', to: 'tadpoles#metamorphosize'
 
   # resources
   resources :ponds
