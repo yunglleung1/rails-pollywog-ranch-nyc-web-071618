@@ -11,10 +11,6 @@ Help Frog Rancher Darryl categorize and track all the ponds, frogs, and tadpoles
 
 After speaking with Darryl, he has informed us that he has several ponds on his ranch. Each pond has different frogs that live there. Some of those frogs have tadpole babies. The frogs all have the ability to have tadpoles at any given time and the tadpoles have the ability to metamorphosize into frogs at any time. 
 
-## Example
-
-Here's a [demo](http://the-pollywog-ranch.herokuapp.com/) of what we're aiming for.
-
 ## Instructions
 
 #### Getting Started
@@ -24,7 +20,7 @@ Here's a [demo](http://the-pollywog-ranch.herokuapp.com/) of what we're aiming f
 * Once the associations are passing, you'll be modifying three files:
   
   1. app/controllers/tadpoles_controller.rb
-    * You'll add an action, `#metamorphoize`, to this controller
+    * You'll add an action, `#metamorphosize`, to this controller
   2. config/routes.rb 
     * Here you'll allow a form to post to /tadpoles/:id/metamorphosize
     * This should route the request to the Tadpoles Controller's metamorphoize action
@@ -48,6 +44,10 @@ Here's a [demo](http://the-pollywog-ranch.herokuapp.com/) of what we're aiming f
 
 ## Resources
 * [Stack Overflow](http://stackoverflow.com/) - [Delegation](http://stackoverflow.com/a/11457714)
-* [Pivotal Labs](http://pivotallabs.com/) - [Delgation](http://pivotallabs.com/rails-delegates-are-even-more-useful-than-i-knew/)
+* [Pivotal Labs](https://blog.pivotal.io/tag/rails/) - [Delgation](https://blog.pivotal.io/labs/labs/rails-delegates-are-even-more-useful-than-i-knew/)
 * [Tutorials Point: Ruby on Rails](http://www.tutorialspoint.com/ruby-on-rails/) - [Ruby on Rails Directory Structure](http://www.tutorialspoint.com/ruby-on-rails/rails-directory-structure.htm)
 * [Rails Guides on Routing](http://guides.rubyonrails.org/routing.html) - [Nested Resources](http://guides.rubyonrails.org/routing.html#nested-resources)
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-pollywog-ranch' title=''></a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-pollywog-ranch'>Rails Pollywog Ranch Lab</a> on Learn.co and start learning to code for free.</p>
