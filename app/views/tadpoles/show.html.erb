@@ -2,7 +2,7 @@
   <h1><%= @tadpole.name %> the Tadpole</h1>
 
   <p>
-    <%= form_tag("/tadpoles/#{@tadpole.id}/metamorphosize") do %>
+    <%= form_tag(metamorphose_path(@tadpole)) do %>
       <%= submit_tag "Become a frog", :class => 'btn btn-primary' %>
     <% end %>
   </p>
